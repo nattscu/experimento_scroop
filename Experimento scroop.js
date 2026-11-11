@@ -2,7 +2,7 @@
  * Experimento Scroop *
  ***************************/
 
-import { core, data, sound, util, visual, hardware } from 'https://pavlovia.org';
+import { core, data, sound, util, visual, hardware } from './lib/psychojs-2026.2.5.js';
 const { PsychoJS } = core;
 const { TrialHandler, MultiStairHandler } = data;
 const { Scheduler } = util;
